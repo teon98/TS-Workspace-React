@@ -1,9 +1,7 @@
-import './App.css'
-
-export default function App() {
+function App(): JSX.Element {
   return (
-    <main>
-      React ⚛️ + Vite ⚡ + Replit 🌀
-    </main>
+    <div>Hi react</div>
   )
 }
+
+export default App;
