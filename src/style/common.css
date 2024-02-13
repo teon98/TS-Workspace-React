@@ -1,0 +1,29 @@
+#body{
+  text-align: center;
+}
+#inputBody{
+  display: flex;
+  flex-direction: column;
+}
+input, button{
+  margin: 2px;
+  padding: 3px;
+  border-radius: 5px;
+}
+input{
+  border-radius: 5px;
+  background: #F6F4EB;
+  width: 150px;
+  border: 2px solid #749BC2;
+}
+input:focus{
+  outline:none;
+}
+button{
+  background-color: #4682A9;
+  color: #F6F4EB;
+  font-weight: bold;
+  cursor: pointer;
+  border-color: #749BC2;
+  width: 120px;
+}
