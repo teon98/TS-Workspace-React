@@ -34,6 +34,7 @@ function InputMood() {
       />
       <input
         type="number"
+        step="10"
         value={temp}
         onChange={(e) => onChange('mood', e)} />
       <button type="button" onClick={() => onAddMood(temp, date)}>기분 온도 올리기</button>
